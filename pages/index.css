@@ -9,54 +9,15 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-.lead
-{
-  padding: 0;
-  margin: 48px 0 0;
-}
+/* Lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
-.lead__title
-{
-  padding: 0;
-  margin: 0 auto;
-
-  max-width: 720px;
-
-  text-align: center;
-  font-size: 96px;
-  font-weight: 900;
-  line-height: 100px;
-}
-
-.lead__subtitle
-{
-  padding: 0;
-  margin: 32px auto 0;
-
-  max-width: 640px;
-
-  text-align: center;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-}
-
-.lead__image
-{
-  padding: 0;
-  margin: 56px 0 0;
-
-  width: 100%;
-}
-
-.lead__caption
-{
-  padding: 0;
-  margin: 8px 0 0;
-
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 1.5px;
-}
+/* Intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
