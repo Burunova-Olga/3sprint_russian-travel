@@ -1,0 +1,21 @@
+@font-face
+{
+  font-family: "Inter";
+  src: url("../vendor/Inter.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.page
+{
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  padding: 28px 48px 24px;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.chapter
+{
+  border: 1px solid red;
+}
+
