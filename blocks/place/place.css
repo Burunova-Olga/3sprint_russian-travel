@@ -67,6 +67,11 @@
   line-height: 22px;
 }
 
+.place__website__link:hover
+{
+  opacity: 0.8;
+}
+
 .place__text
 {
   padding: 0;
