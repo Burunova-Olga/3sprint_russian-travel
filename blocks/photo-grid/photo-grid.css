@@ -14,3 +14,19 @@
   max-width: 100%;
   object-fit: cover;
 }
+
+@media all and (min-width: 1280px)
+{
+}
+
+@media all and (max-width: 1024px)
+{
+}
+
+@media all and (max-width: 768px)
+{
+}
+
+@media all and (max-width: 320px)
+{
+}

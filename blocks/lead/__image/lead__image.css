@@ -1,0 +1,34 @@
+.lead__image
+{
+  padding: 0;
+  margin: 0;
+
+  width: 100%;
+
+  /* media */
+  margin-top: 56px;
+}
+
+@media all and (min-width: 1280px)
+{
+  .lead__image
+  {
+    margin-top: 64px;
+  }
+}
+
+@media all and (max-width: 1024px)
+{
+  .lead__image
+  {
+    margin-top: 56px;
+  }
+}
+
+@media all and (max-width: 320px)
+{
+  .lead__image
+  {
+    margin-top: 40px;
+  }
+}

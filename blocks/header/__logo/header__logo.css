@@ -1,0 +1,8 @@
+.header__logo
+{
+  padding: 0;
+  margin-right: auto;
+
+  height: 100%;
+  max-width: min-content;
+}

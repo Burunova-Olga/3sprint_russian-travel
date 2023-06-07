@@ -2,6 +2,7 @@
 
 /* Page */
 @import url(../blocks/page/page.css);
+@import url(../blocks/chapter/chapter.css);
 @import url(../blocks/changeOpacity/changeOpacity.css);
 
 /* Header */

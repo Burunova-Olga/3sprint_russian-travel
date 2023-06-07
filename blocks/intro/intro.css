@@ -1,42 +1,41 @@
 .intro
 {
+  /* media */
   max-width: 690px;
+  margin-left: 48px;
 }
 
-.intro__title
+@media all and (min-width: 1280px)
 {
-  padding: 0;
-  margin: 0;
-
-  font-size: 54px;
-  font-weight: 900;
-  line-height: 58px;
+  .intro
+  {
+    margin-left: 148px;
+  }
 }
 
-.intro__text
+@media all and (max-width: 1024px)
 {
-  padding: 0;
-  margin: 40px 0 0;
-  max-width: 100%;
-
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26.08px;
+  .intro
+  {
+    margin-left: 48px;
+  }
 }
 
-.intro__list
+@media all and (max-width: 768px)
 {
-  padding: 0;
-  margin: 33px 0 0;
-
-  list-style-type: none;
-
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 18px;
+  .intro
+  {
+    max-width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
-.intro__list__span-accent
+@media all and (max-width: 320px)
 {
-  font-weight: 700;
+  .intro
+  {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

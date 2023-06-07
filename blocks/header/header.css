@@ -10,42 +10,6 @@
   height: 52px;
 }
 
-.header__logo
-{
-  padding: 0;
-  margin-right: auto;
-
-  height: 100%;
-  max-width: min-content;
-}
-
-.header__lang-links
-{
-  padding: 0;
-  margin: 0;
-
-  list-style-type: none;
-
-  display: flex;
-  gap: 18px;
-}
-
-.header__lang-link
-{
-  color: #FFFFFF;
-  text-decoration: none;
-  font-weight: 400;
-
-  /* media */
-  font-size: 24px;
-  line-height: 28px;
-}
-
-.header__lang-link_checked
-{
-  text-decoration: underline;
-}
-
 @media all and (min-width: 1280px)
 {
   .header
@@ -76,11 +40,5 @@
   {
     margin: 16px 16px 48px;
     height: 42px;
-  }
-
-  .header__lang-link
-  {
-  font-size: 18px;
-  line-height: 20px;
   }
 }
