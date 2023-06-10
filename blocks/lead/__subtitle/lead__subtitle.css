@@ -13,7 +13,7 @@
   line-height: 36px;
 }
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 320px), (orientation: portrait)
 {
   .lead__subtitle
   {
