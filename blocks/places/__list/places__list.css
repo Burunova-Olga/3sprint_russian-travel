@@ -5,7 +5,6 @@
   list-style-type: none;
   display: grid;
 
- /* media */
   gap: 80px;
 }
 
@@ -17,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 320px), (orientation: portrait)
+@media screen and (max-width: 425px)
 {
   .places__list
   {

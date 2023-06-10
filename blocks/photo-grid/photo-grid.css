@@ -4,7 +4,6 @@
   grid-template-rows: 1fr;
   grid-auto-rows: 1fr;
 
-  /* media */
   margin-left: 48px;
   margin-right: 48px;
 
@@ -42,7 +41,7 @@
   }
 }
 
-@media screen and (max-width: 320px), (orientation: portrait)
+@media screen and (max-width: 425px)
 {
   .photo-grid
   {

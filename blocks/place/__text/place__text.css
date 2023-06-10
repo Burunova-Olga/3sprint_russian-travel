@@ -1,14 +1,12 @@
 .place__text
 {
   padding: 0;
+  margin: 0;
 
   grid-area: text;
-
-  /* media */
-  margin: 0;
 }
 
-@media screen and (max-width: 320px), (orientation: portrait)
+@media screen and (max-width: 480px)
 {
   .place__text
   {

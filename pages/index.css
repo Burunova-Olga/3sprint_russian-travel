@@ -46,6 +46,7 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__image/cover__image.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);

@@ -1,16 +1,32 @@
 .intro
 {
-  max-width: 984px;
-  /*margin-left: 48px;
-  margin-right: 48px;*/
+  max-width: 690px;
+  margin-left: 48px;
+  margin-right: auto;
 }
-/*
+
+/* Возможно, это излишне, но так две секции смещаются одинаково */
 @media screen and (min-width: 1280px)
 {
   .intro
   {
-  /*  margin-left: 148px;
-    margin-right: 148px;
+    margin-left: 148px;
+  }
+}
+
+@media screen and (max-width: 1280px)
+{
+  .intro
+  {
+    margin-left: calc((100% - 984px)/2);
+  }
+}
+
+@media screen and (max-width: 1080px)
+{
+  .intro
+  {
+    margin-left: 48px;
   }
 }
 
@@ -18,8 +34,26 @@
 {
   .intro
   {
-  /*  margin-left: 48px;
-    margin-right: 48px;
+    margin-left: calc((100% - 928px)/2);
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 1006px)
+{
+  .intro
+  {
+    /* плавное увеличение размера */
+    max-width: calc(690px + (1024px - 100%));
+  }
+}
+
+@media screen and (max-width: 976px)
+{
+  .intro
+  {
+    margin-left: 24px;
+    max-width: 720px;
   }
 }
 
@@ -28,12 +62,11 @@
   .intro
   {
     max-width: 100%;
-    margin-left: 24px;
     margin-right: 24px;
   }
 }
 
-@media screen and (max-width: 320px), (orientation: portrait)
+@media screen and (max-width: 425px)
 {
   .intro
   {
@@ -41,4 +74,4 @@
     margin-right: 16px;
   }
 }
-*/
+

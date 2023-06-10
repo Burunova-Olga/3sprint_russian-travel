@@ -5,6 +5,7 @@
 
   grid-area: image;
   max-width: 100%;
+  min-width: none;
   object-fit: cover;
 }
 
