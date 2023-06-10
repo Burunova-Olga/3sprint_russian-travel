@@ -1,12 +1,14 @@
 .photo-grid
 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+
+  /* media */
   margin-left: 48px;
   margin-right: 48px;
 
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-auto-rows: 1fr;
   gap: 14px;
 }
 
@@ -17,7 +19,6 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
   }
-
 }
 
 @media screen and (max-width: 1024px)
@@ -27,7 +28,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
-
 }
 
 @media screen and (max-width: 768px)
@@ -40,7 +40,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
-
 }
 
 @media screen and (max-width: 320px), (orientation: portrait)
@@ -53,5 +52,4 @@
     grid-template-columns: 1fr;
     gap: 12px;
   }
-
 }

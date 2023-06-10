@@ -1,0 +1,42 @@
+.places
+{
+  /* media */
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+@media screen and (min-width: 1280px)
+{
+  .places
+  {
+    margin-left: 148px;
+    margin-right: 148px;
+  }
+}
+
+@media screen and (max-width: 1024px)
+{
+  .places
+  {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .places
+  {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px), (orientation: portrait)
+{
+  .places
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

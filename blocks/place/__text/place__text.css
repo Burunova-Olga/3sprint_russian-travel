@@ -1,0 +1,17 @@
+.place__text
+{
+  padding: 0;
+
+  grid-area: text;
+
+  /* media */
+  margin: 0;
+}
+
+@media screen and (max-width: 320px), (orientation: portrait)
+{
+  .place__text
+  {
+    margin: 0 16px;
+  }
+}
