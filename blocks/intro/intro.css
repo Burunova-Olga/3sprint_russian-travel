@@ -1,15 +1,16 @@
 .intro
 {
-  /* media */
-  max-width: 690px;
-  margin-left: 48px;
+  max-width: 984px;
+  /*margin-left: 48px;
+  margin-right: 48px;*/
 }
-
+/*
 @media screen and (min-width: 1280px)
 {
   .intro
   {
-    margin-left: 148px;
+  /*  margin-left: 148px;
+    margin-right: 148px;
   }
 }
 
@@ -17,7 +18,8 @@
 {
   .intro
   {
-    margin-left: 48px;
+  /*  margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
@@ -39,3 +41,4 @@
     margin-right: 16px;
   }
 }
+*/

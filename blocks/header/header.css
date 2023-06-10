@@ -1,20 +1,30 @@
 .header
 {
+  padding: 0;
+  margin: 28px auto 48px;
+
+  max-width: calc(100% - 2*48px);
+  min-width: 720px;
+  height: 52px;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0;
-
-  /* media */
-  margin: 28px 48px 48px;
-  height: 52px;
 }
 
 @media screen and (min-width: 1280px)
 {
   .header
   {
-    margin: 28px 48px 56px;
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px)
+{
+  .header
+  {
+    margin-bottom: 4.68%;
   }
 }
 
@@ -22,7 +32,7 @@
 {
   .header
   {
-    margin: 28px 48px 48px;
+    margin-bottom: 48px;
   }
 }
 
@@ -30,15 +40,17 @@
 {
   .header
   {
-    margin: 28px 24px 48px;
+    max-width: calc(100% - 2*24px);
+    min-width: 288px;
   }
 }
 
-@media screen and (max-width: 320px), (orientation: portrait)
+@media screen and (max-width: 425px)
 {
   .header
   {
-    margin: 16px 16px 48px;
+    max-width: calc(100% - 2*16px);
+    margin-top: 16px;
     height: 42px;
   }
 }
