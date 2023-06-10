@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 
 /* Page */
+@import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/chapter/chapter.css);
 @import url(../blocks/changeOpacity/changeOpacity.css);
