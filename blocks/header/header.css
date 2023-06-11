@@ -5,7 +5,7 @@
 
   max-width: calc(100% - 2*48px);
   min-width: 720px;
-  height: 52px;
+  min-height: 52px;
 
   display: flex;
   justify-content: flex-end;
@@ -51,6 +51,6 @@
   {
     max-width: calc(100% - 2*16px);
     margin-top: 16px;
-    height: 42px;
+    min-height: 42px;
   }
 }

@@ -7,11 +7,6 @@
   line-height: 117%;
 }
 
-.header__lang-link_checked
-{
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 425px)
 {
   .header__lang-link
