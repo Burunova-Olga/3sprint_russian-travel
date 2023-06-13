@@ -1,15 +1,10 @@
 .footer
 {
-  margin-bottom: 24px;
+  margin: 0 48px 24px;
 
   display: flex;
-
   justify-content: flex-start;
   align-items: center;
-
-  /* media */
-  margin-left: 48px;
-  margin-right: 48px;
 }
 
 @media screen and (max-width: 768px)

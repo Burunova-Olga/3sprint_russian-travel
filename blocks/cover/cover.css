@@ -5,12 +5,3 @@
   max-width: 1184px;
 }
 
-@media screen and (min-width: 1480px)
-{
-  .cover
-  {
-    margin-left: 148px;
-    margin-right: 148px;
-    max-width: none;
-  }
-}
