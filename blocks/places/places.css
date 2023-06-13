@@ -2,25 +2,17 @@
 {
   /* Поведение почти аналогично lead и intro */
 
-  margin-left: 48px;
-  margin-right: 48px;
-}
-
-@media screen and (min-width: 1280px)
-{
-  .places
-  {
-    margin-left: 148px;
-    margin-right: 148px;
-  }
+  max-width: 984px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1280px)
 {
   .places
   {
-    margin-left: calc((100% - 984px)/2);
-    margin-right: calc((100% - 984px)/2);
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }
 
